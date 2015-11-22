@@ -1,0 +1,35 @@
+<ul>
+	<% 4.times do |i| %>
+ 		<%= erb :'mapa/hexagon', :locals => { :name => i.to_s } %>
+	<% end %>
+</ul>
+<ul class="mt">
+	<% 5.times do |i| %>
+   		<%= erb :'mapa/hexagon', :locals => { :name => (i+4).to_s } %>
+	<% end %>  
+</ul>
+<ul class="mt">
+	<% 6.times do |i| %>
+   		<%= erb :'mapa/hexagon', :locals => { :name => (i+9).to_s } %>
+	<% end %>
+</ul>
+<ul class="mt">
+	<% 7.times do |i| %>
+   		<%= erb :'mapa/hexagon', :locals => { :name => (i+15).to_s } %>
+	<% end %>
+</ul>
+<ul class="mt">
+	<% 6.times do |i| %>
+   		<%= erb :'mapa/hexagon', :locals => { :name => (i+22).to_s } %>
+	<% end %>
+</ul>
+<ul class="mt">
+	<% 5.times do |i| %>
+   		<%= erb :'mapa/hexagon', :locals => { :name => (i+28).to_s } %>
+	<% end %>  
+</ul>
+<ul class="mt">
+	<% 4.times do |i| %>
+   		<%= erb :'mapa/hexagon', :locals => { :name => (i+33).to_s } %>
+	<% end %>
+</ul>
